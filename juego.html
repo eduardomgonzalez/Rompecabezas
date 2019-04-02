@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BMO Arcade</title>
+    <link rel="stylesheet" href="css/juego.css">
+  </head>
+  <body>
+    <div class="col-40">  
+      <div id="titulo">
+        <h1>ROMPECABEZAS</h1>
+      </div>
+      <div id="instrucciones">
+        <h2 class="subtitulo">Instrucciones</h2>
+        <ul id="lista-instrucciones">
+        </ul>
+      </div>
+      <div id="objetivo">
+        <h2 class="subtitulo">Objetivo</h2>
+        <div class="texto-centrado">
+          <img src="images/final.png" alt="imagen terminada">          
+        </div>
+      </div>
+      <div id="ultimo-mov">
+        <h2 class="subtitulo">Ultimo Movimiento</h2>
+        <div id="flecha" class="texto-centrado">          
+        </div>
+      </div>
+      
+    </div>
+    <div class="col-60">
+      <div id="juego">
+          <div class="piezas" id="pieza1"><img id="img1" src="images/10.jpg" alt="imagen 1"></div>
+          <div class="piezas" id="pieza2"><img id="img2" src="images/20.jpg" alt="imagen 2"></div>
+          <div class="piezas" id="pieza3"><img id="img3" src="images/30.jpg" alt="imagen 3"></div>
+          <div class="piezas" id="pieza4"><img id="img4" src="images/40.jpg" alt="imagen 4"></div>
+          <div class="piezas" id="pieza5"><img id="img5" src="images/50.jpg" alt="imagen 5"></div>
+          <div class="piezas" id="pieza6"><img id="img6" src="images/60.jpg" alt="imagen 6"></div>
+          <div class="piezas" id="pieza7"><img id="img7" src="images/70.jpg" alt="imagen 7"></div>
+          <div class="piezas" id="pieza8"><img id="img8" src="images/80.jpg" alt="imagen 8"></div>
+          <div class="piezas" id="pieza9"></div>
+      </div>
+    </div>
+    <div id="footer">
+      <p><button class="boton_personalizado" type="button" name="button" onclick="refrescar()">Reiniciar</button></p>
+      <p>Realizado por: Eduardo Maximiliano González - Desarrollador Web Full Stack</p>      
+    </div>
+    <script src="js/juego.js"></script>
+  </body>
+</html>
